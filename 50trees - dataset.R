@@ -13,8 +13,6 @@ if (length(packages_to_install) > 0) {
 lapply(packages, library, character.only = TRUE)
 
 
-# Assuming we already have train_data and test_data from the previous workshop
-
 train_data <- read.csv("train_data.csv")
 test_data <- read.csv("test_data.csv")
 
@@ -262,4 +260,5 @@ legend("bottomright",
                   paste("Naive Bayes:", round(auc_nb, 3))),
        col = c("blue", "red", "green"),
        lwd = 2)
+
 
