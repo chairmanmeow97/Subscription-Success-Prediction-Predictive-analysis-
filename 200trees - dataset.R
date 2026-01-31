@@ -13,14 +13,9 @@ if (length(packages_to_install) > 0) {
 lapply(packages, library, character.only = TRUE)
 
 
-# Assuming we already have train_data and test_data from the previous workshop
-
  train_data <- read.csv("train_data.csv")
  test_data <- read.csv("test_data.csv")
 
-# ===========================================
-# UNDERSTANDING OUR DATA
-# ===========================================
 
 # Make sure our target variable is properly set up
 train_data$y <- factor(train_data$y, levels = c("no", "yes"))
@@ -32,11 +27,6 @@ print("Customer subscription distribution:")
 print(sub_table)
 print(paste0("Subscription rate: ", round(prop.table(sub_table)[2] * 100, 1), "%"))
 
-
-
-
-# Check if we have any missing data (As I told you in the lecture, I have already cleaned the data for you! But be aware that in real life, you will 
-# come across the case when data is missing and you need to make )
 missing_count <- sapply(train_data, function(x) sum(is.na(x)))
 if(sum(missing_count) > 0) {
   print("Missing values found:")
@@ -269,5 +259,6 @@ legend("bottomright",
                   paste("Naive Bayes:", round(auc_nb, 3))),
        col = c("blue", "red", "green"),
        lwd = 2)
+
 
 
