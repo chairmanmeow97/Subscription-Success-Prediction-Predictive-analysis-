@@ -58,6 +58,10 @@ The following predictors had the strongest influence on subscription likelihood:
 2. **Previous Outcome (Success)** — Customers successfully contacted previously are more likely to resubscribe
 3. **Month of Last Contact** — March and October showed higher conversion rates
 4. **Contact Type** — Specific contact methods influence subscription probability
+<img width="439" height="319" alt="image" src="https://github.com/user-attachments/assets/efb65ef6-5f23-4e04-872f-61559ddaaa41" />
+<img width="440" height="319" alt="image" src="https://github.com/user-attachments/assets/8a8e5e3f-7a00-41f0-af42-91c35db60fe2" />
+<img width="539" height="392" alt="image" src="https://github.com/user-attachments/assets/c26e7716-67f6-4510-aa36-befac51a0687" />
+
 
 ### 💡 Actionable Insights
 
