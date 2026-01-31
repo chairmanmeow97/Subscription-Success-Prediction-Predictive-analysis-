@@ -47,6 +47,7 @@ Three classification algorithms were explored and evaluated:
 <img width="444" height="323" alt="image" src="https://github.com/user-attachments/assets/5f93ee93-a4a1-426e-9a0b-96e55649a916" />
 <img width="411" height="299" alt="image" src="https://github.com/user-attachments/assets/eb2e2196-87f4-457f-b201-30a8371d0263" />
 <img width="537" height="386" alt="image" src="https://github.com/user-attachments/assets/b86444c4-5789-4dd7-99f2-9e93c86799f2" />
+
 **Key Finding:** XGBoost emerged as the superior model, achieving the best balance between precision and recall while minimizing false negatives—critical for identifying actual subscribers.
 
 ### 🎯 Feature Importance
