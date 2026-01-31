@@ -14,10 +14,11 @@ The project utilizes a split dataset consisting of:
 <img width="584" height="725" alt="image" src="https://github.com/user-attachments/assets/908c741e-f0da-4ae6-8422-f3eb1e054b25" />
 
 ## 🛠️ Tools & Technologies
-Language: R programming language
-Algorithms: Random Forest, XGBoost, Naive Bayes
-Data Processing: SMOTE for class imbalance, one-hot encoding, feature scaling
-Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+- **Language:** R
+- **Algorithms:** Random Forest, XGBoost, Naive Bayes
+- **Data Processing:** SMOTE for class imbalance, one-hot encoding, feature scaling
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score, ROC-AUC, Confusion Matrix
+
 
 ### Data Preprocessing
 1. **Imbalance Treatment**: Addressed a subscription rate of only 11.7% in the training set using **SMOTE** (Synthetic Minority Over-sampling Technique) to improve model fairness.
