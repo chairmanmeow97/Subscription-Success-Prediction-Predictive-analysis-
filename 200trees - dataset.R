@@ -19,7 +19,7 @@ lapply(packages, library, character.only = TRUE)
  test_data <- read.csv("test_data.csv")
 
 # ===========================================
-# EXERCISE 1: UNDERSTANDING OUR DATA
+# UNDERSTANDING OUR DATA
 # ===========================================
 
 # Make sure our target variable is properly set up
@@ -71,7 +71,7 @@ train_control <- trainControl(
 )
 
 # ===========================================
-# EXERCISE 2: RANDOM FOREST MODEL
+# RANDOM FOREST MODEL
 # ===========================================
 
 # Set up different values to try for mtry (features per split)
@@ -123,7 +123,7 @@ auc_rf <- auc(roc_rf)
 legend("bottomright", legend = paste("AUC =", round(auc_rf, 3)))
 
 # ===========================================
-# EXERCISE 3: XGBOOST MODEL
+# XGBOOST MODEL
 # ===========================================
 
 # Set up different options to test
@@ -182,7 +182,7 @@ auc_xgb <- auc(roc_xgb)
 legend("bottomright", legend = paste("AUC =", round(auc_xgb, 3)))
 
 # ===========================================
-# EXERCISE 4: NAIVE BAYES MODEL
+# NAIVE BAYES MODEL
 # ===========================================
 
 # Set up different options to test
@@ -226,7 +226,7 @@ auc_nb <- auc(roc_nb)
 legend("bottomright", legend = paste("AUC =", round(auc_nb, 3)))
 
 # ===========================================
-# EXERCISE 5: MODEL COMPARISON
+# MODEL COMPARISON
 # ===========================================
 
 # Create a function to extract the key business metrics
@@ -269,4 +269,5 @@ legend("bottomright",
                   paste("Naive Bayes:", round(auc_nb, 3))),
        col = c("blue", "red", "green"),
        lwd = 2)
+
 
